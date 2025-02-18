@@ -3,5 +3,6 @@
 numero = int(input("Escolha um numero: "))
 nome = input("Insira seu nome: ")
 
-for i in numero:
-    print(i)
+for i in range(numero):
+    for letra in nome:
+        print(letra)
