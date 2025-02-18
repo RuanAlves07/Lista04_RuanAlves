@@ -3,5 +3,4 @@
 numero = int(input("Insira um numero: "))
 
 for i in range(numero, 51):
-    numero1 = numero - 51
-    print(numero1)
+    print(i)
