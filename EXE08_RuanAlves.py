@@ -4,7 +4,7 @@ total = 0
 
 for i in range(5):
     numero = int(input("Insira cinco numeros: "))
-    pergunta = input("Deseja continuar?")
+    pergunta = input("Deseja incluir este número? (S/N) ")
 
     if pergunta == "s":
         total += numero
