@@ -5,8 +5,8 @@ numero = int(input("Insira um numero: "))
 for i in range(numero):
     numero1 = numero - i
     print(numero1)
-
-    if numero1 == i:
+    
+    if numero == i:
         break
 
 print ("Ruan Augusto Alves")
