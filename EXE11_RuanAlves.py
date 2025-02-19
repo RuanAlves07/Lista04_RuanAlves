@@ -9,12 +9,16 @@
 
 tarefas = int(input("Quantas tarefas serão inseridas? : "))
 
-tarefa = []
-concluida = []
-
 for i in range(tarefas):
-    tarefa_nome = input("Informe o nome da tarefa")
-    tarefa.append(tarefa_nome)
-    tarefa_conclusao = input("Está concluida? (sim/s/não/n)")
-    concluida.append(tarefa_conclusao)
-    print("{} está concluida? {}".format(tarefa[i], concluida[i]))
+    tarefa_nome = input("Informe o nome da tarefa: ")
+    tarefa_conclusao = input("Está concluida? (sim/s/não/n): ".lower())
+    if tarefa_conclusao == "sim" or "s":
+        concluida =+ 1
+    elif tarefa_conclusao == "não" or "n":
+        naoconcluida =+ 1
+
+print("{} estão concluidas, {} não estão concluidas.".format(concluida, naoconcluida))
+
+
+
+        
