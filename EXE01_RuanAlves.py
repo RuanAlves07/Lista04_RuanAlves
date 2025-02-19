@@ -4,3 +4,5 @@ nome = input("Insira o nome: ")
 
 for i in range(3):
     print(nome)
+
+print ("Ruan Augusto Alves")

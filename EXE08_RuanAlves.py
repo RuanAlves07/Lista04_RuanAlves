@@ -2,11 +2,11 @@
 
 total = 0
 
-for i in range(1, 6):
+for i in range(5):
     numero = int(input("Insira cinco numeros: "))
     pergunta = input("Deseja continuar?")
+
     if pergunta == "s":
-        total *= i
-        print(total)
-    else:
-        print("Total deu: {}".format(total))
+        total += numero
+
+print("Total deu: {}".format(total))

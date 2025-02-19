@@ -5,3 +5,5 @@ numero = int(input("Insira a quantidade de vezes que deseja repetir o seu nome: 
 
 for i in range(numero):
     print(Nome)
+
+print ("Ruan Augusto Alves")

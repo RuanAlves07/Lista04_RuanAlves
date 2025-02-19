@@ -2,5 +2,11 @@
 
 numero = int(input("Insira um numero: "))
 
-for i in range(numero, 51):
-    print(i)
+for i in range(numero):
+    numero1 = numero - i
+    print(numero1)
+
+    if numero1 == i:
+        break
+
+print ("Ruan Augusto Alves")

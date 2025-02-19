@@ -6,3 +6,5 @@ nome = input("Insira seu nome: ")
 for i in range(numero):
     for letra in nome:
         print(letra)
+
+print ("Ruan Augusto Alves")
