@@ -5,3 +5,12 @@
 
 
 direção = input("Diga a direção que deseja apontar: (C para cima, A para baixo)")
+
+if direção == "A":
+    num = int(input("qual o numero que deseja? (Abaixo de 20)"))
+    for i in range(20,num -1 ,-1):
+        print(i)
+elif direção == "C":
+    num = int(input("qual o numero que deseja? (Superior a 1)"))
+    for i in range(num + 1):
+        print(i)
