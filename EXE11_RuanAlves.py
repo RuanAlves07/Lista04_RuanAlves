@@ -20,6 +20,8 @@ for i in range(tarefas):
 
 print("{} estão concluidas, {} não estão concluidas.".format(concluida, naoconcluida))
 
+print ("Ruan Augusto Alves")
+
 
 
         

@@ -25,7 +25,6 @@ for i in range(len(horas_disponiveis)):
         horario_selecionado = horas_disponiveis[escolher_horario - 1]
         print("O horário {} foi agendado com sucesso!".format(horas_disponiveis))
         
-
     if len(horario_selecionado) == 0:
         print("Todos os horarios estão ocupados!")
         break
@@ -35,6 +34,7 @@ for i in range(len(horas_disponiveis)):
         print("Programa encerrando...")
         break
     
+    print("Ruan Augusto Alves")
 
 #meudeus que bagulho embaçado   
 
