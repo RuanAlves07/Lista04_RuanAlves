@@ -10,3 +10,5 @@ for i in range(5):
         total += numero
 
 print("Total deu: {}".format(total))
+
+print ("Ruan Augusto Alves")
